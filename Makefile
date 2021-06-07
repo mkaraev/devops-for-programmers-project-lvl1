@@ -2,4 +2,4 @@ server:
 	npx nodos server
 
 test:
-	npm -s test
+	docker run mkaraev/nodos_app npm -s test
